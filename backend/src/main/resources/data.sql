@@ -12,3 +12,5 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 1);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
+
+INSERT INTO tb_course (name, img_Uri, Img_Gray_Uri) VALUES ('BootCamp Excel', 'http://www.santoantoniododescoberto.go.gov.br/site/wp-content/uploads/2019/07/35928cdc-4911-466c-8daa-f91694f7ad04.png', 'https://fdr.com.br/wp-content/uploads/2020/03/Imagem-Artigo-1-1024x576.jpg' );
