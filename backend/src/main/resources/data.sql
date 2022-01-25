@@ -21,3 +21,7 @@ INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Trilha HTML', 'Curso Básico', 1, 'https://arquivo.devmedia.com.br/cursos/imagem/curso_introducao-ao-html_2162.png', 1, 1 );
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Forum', 'Tire as suas dúvidas', 2, 'https://i.ytimg.com/vi/knGk9aUr4Do/maxresdefault.jpg', 2, 1 );
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Lives', 'Lives exclusivas para a turma', 3, 'https://d2slcw3kip6qmk.cloudfront.net/marketing/techblog/Inspector-tab/Header.png', 0, 1 );
+
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 1', 'Neste capitulo, vamos começar', 1, 'https://d2slcw3kip6qmk.cloudfront.net/marketing/techblog/Inspector-tab/Header.png', 1, null);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 2', 'Neste capitulo, vamos continuar', 2, 'https://d2slcw3kip6qmk.cloudfront.net/marketing/techblog/Inspector-tab/Header.png', 1, 1);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 3', 'Neste capitulo, vamos finalizar', 3, 'https://d2slcw3kip6qmk.cloudfront.net/marketing/techblog/Inspector-tab/Header.png', 1, 2);
